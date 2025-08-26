@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import pool from '../db/connection';
-import { fetchWeather } from '../services/weatherService';
+import pool from '../db/connection.js';
+import { fetchWeather } from '../services/weatherService.js';
 
 export const getWeather = async (req: Request, res: Response) => {
   try {

@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import weatherRoutes from './routes/weatherRoute';
+import weatherRoutes from './routes/weatherRoute.js';
 
 const app = express();
 app.use(cors());

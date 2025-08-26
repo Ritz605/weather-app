@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getWeather, getAllWeather } from '../controllers/weatherController';
+import { getWeather, getAllWeather } from '../controllers/weatherController.js';
 
 const router = Router();
 

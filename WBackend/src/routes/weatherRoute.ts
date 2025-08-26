@@ -1,0 +1,9 @@
+import { Router } from 'express';
+import { getWeather, getAllWeather } from '../controllers/weatherController';
+
+const router = Router();
+
+router.post('/weather', getWeather);
+router.get('/weather', getAllWeather);
+
+export default router;

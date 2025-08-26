@@ -1,0 +1,14 @@
+# root
+.env
+.DS_Store
+
+# backend
+/WBackend/node_modules
+/WBackend/dist
+
+
+# frontend
+/WFrontend/node_modules
+/WFrontend/build
+/WFrontend/dist
+
